@@ -15,7 +15,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 export default function Slide() {
     return (
         <div className="fullslide">
-            <AutoplaySlider play={false} cancelOnInteraction={false} interval={10000}>
+            <AutoplaySlider play={true} cancelOnInteraction={false} interval={10000}>
                 <div className="divcarousel">
 
                     <img className="beer" src={pilsen}></img>
