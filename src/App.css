@@ -89,6 +89,7 @@ span.awssld__controls__arrow-left::after {
   width: 100%;
   height: 100%;
   margin-bottom: -0.2rem;
+  margin-top:-0.1rem;
   justify-content: center;
   filter: brightness(30%);
   background-color: black;
@@ -296,7 +297,9 @@ height: 100%;
 .awssld__content {
   --content-background-color: black;
 
+
 }
+
 
 .logo {
   width: 70px;
@@ -307,6 +310,13 @@ height: 100%;
 .logoimg {
   width: 150px;
   padding-bottom: 0.8rem;
+}
+.awssld__box {
+  background-color: black;
+}
+
+.awssld--active {
+  background-color: black;
 }
 
 nav {
@@ -603,6 +613,9 @@ input:focus {
   .textbeer{
     width: 270px;
     line-height: 4vhg;
+  }
+  .divtextbackground{
+    width: 300px;
   }
 
 }
